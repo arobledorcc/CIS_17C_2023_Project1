@@ -1,0 +1,121 @@
++
+wait
+Type anything to continue...
++
+choice
+Type in your choice :
++
+title
+   ______   ______       ______  __   ______   __  __   __
+  /\  ___\ /\  __ \     /\  ___\/\ \ /\  ___\ /\ \_\ \ /\ \ 
+  \ \ \__ \\ \ \/\ \    \ \  __\\ \ \\ \___  \\ \  __ \\ \_\  
+   \ \_____\\ \_____\    \ \_\   \ \_\\/\_____\\ \_\ \_\\/\_\
+    \/_____/ \/_____/     \/_/    \/_/ \/_____/ \/_/\/_/ \/_/
+
+	A) Start New Game
+	B) Rules
+	C) Exit
++
+invalid_title
+Sorry that input is invalid.
+Try just typing in the choice letter. ex: A
++
+invalid_title_range
+Sorry that's not a option,
+Try anything between A, B, C, or D.
++
+rules
+GO FISH! 
+=RULES=
+Go Fish uses a standard 52 card deck. 
+In this game we will only focus on the card values.
+For Example : A 2 3 4 5 6 7 8 9 10 J Q K
+1. Each player will be given five cards.
+2. On your turn ask any player for a card. For Example:
+	"Give me your Kings"
+	If the player asked has any "Kings" they give you all their kings.
+	Otherwise, They say "Go Fish!" and...
+	you draw a card from the pile.
+3. Once you have 4 of a kind, you make a "book".
+	Put these "book" aside, they are out of play now.
+4. If you happen to run out of cards, you take a card out of the pile.
+	And continue your turn as normal. 
+	If there is no more cards in the pile, You are out of the game.
+5. Once every player's hand is empty, the game is over.
+	The player with the most books win!
++
+gofish
+Go Fish!
++
+player
+Player
++
+player_book
+Your Books:
++
+hand
+Your Hand:
++
+emptyhand
+Your Hand is Empty..
++
+drawcard_computer
+draws a card.
++
+drawcard
+You draw a card :
++
+emptydeck
+There are no more cards in the deck.
++
+yourturn
+It's your turn.
++
+turn
+'s turn.
++
+asks
+Asks
++
+for
+For
++
+takes
+Takes
++
+gofish_prompt
+Pick a player to fish :
++
+gofish_prompt_invalid
+Try typing in for example : A
++
+askcard
+Now ask for a card!
++
+invalidinput
+Invalid input.
++
+askcard_prompt
+Try asking in the format : "Do you have any Kings"
++
+card_taken
+You take
++
+disqualified
+is out of the game!
++
+player_disqualified
+You are out of the game!
++
+book
+Book(s)
++
+mostbooks
+Has the most books!
++
+winner
+Wins!
++
+tied
+Tied with
++
